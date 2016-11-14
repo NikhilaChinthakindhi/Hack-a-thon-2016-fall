@@ -1,4 +1,4 @@
-Youtube video link : https://www.youtube.com/watch?v=PKv1W3kJyW4 
+Youtube video link : https://youtu.be/1Vl4NuXX4Eg
 
 Ppt link: https://github.com/SaiTejaMakani/Hack-a-thon-2016-fall/blob/master/Barcode_scanner_MVP.pptx
 

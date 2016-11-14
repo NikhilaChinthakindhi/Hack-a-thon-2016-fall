@@ -1,0 +1,35 @@
+<ion-view title="Signup" id="page5" style="background-color:#2FCFB0;">
+    <div class="background-image"></div>
+    <ion-content padding="true" class="has-header" ng-app='app' ng-controller='signupCtrl'>
+        <form id="signup-form8" class="list">
+            <ion-list id="signup-list2">
+                <label class="item item-input" id="signup-input14">
+                    <span class="input-label">Username</span>
+                    <input type="text" placeholder="Username" ng-model='user_name'>
+                </label>
+                <label class="item item-input" id="signup-input16">
+                    <span class="input-label">Email</span>
+                    <input type="email" placeholder="Email" ng-model='user_email'>
+                </label>
+                <div>
+                <label class="item item-input" id="signup-input15">
+                    <span class="input-label">Password</span>
+                    <input type="password"  placeholder="Password" ng-model='password' >
+                </label>
+                </div>    
+                <label class="item item-input" id="signup-input17">
+                    <span class="input-label">Confirm Password</span>
+                    <input type="password" placeholder="Confirm Password" ng-model='cnf_password'>
+                </label>
+                <label class="item item-input" id="signup-input18">
+                    <span class="input-label">Referral Code</span>
+                    <input type="text" placeholder="Referral Code" ng-model='user_refered'>
+                </label>
+                
+            </ion-list>
+            <div ng-click="register()">
+            <a id="signup-button7" style="color:#FFFFFF;" class="button button-dark  button-block">Signup</a>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

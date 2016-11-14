@@ -1,0 +1,24 @@
+<ion-view ng-app="app" title="Barcode Scanner MVP" id="page6" style="background-color:#0086b3";>
+    <div class="background-image"></div>
+    <ion-content padding="true" class="has-header">
+        <div>
+        <button ng-controller="BarCodeController" ng-click='scanBarcode()' class="button button-dark  button-block">Scan Barcode</button>
+        <button ng-controller="social_Sharing" ng-click='social_sharing()' class="button button-dark  button-block">Invite friends</button>
+        </div>
+        <div class="list card" id="user_profile" ng-controller='profile_user' ng-init='profile_details()'>
+        <button ng-click='profile_details()' class="button button-dark  button-block">Profile</button>
+        
+        
+            <form id="selectSubject-form15" class="list">
+                <ion-item id="profile_username"   >Username         : {{profile_user_name}}</ion-item>
+                <ion-item id="profile_referal_id" >Referral code    : {{profile_referal_id}}</ion-item>
+                <ion-item id="profile_num_of_ref" >Referrals        : {{profile_number_of_referals}}</ion-item>
+                <!-- implementation for credit camount
+                <ion-item id="profile_credit"     >Amount credited  : {{profile_user_credit}}$</ion-item>
+                -->
+                <ion-item id="Viral_Coefficeint"  >Viral coefficient: {{viral_coeff}}</ion-item>
+            </form>
+        </div>
+        <a ui-sref="mainpage" id="home-button10" class="button button-dark  button-block">Log out</a> 
+    </ion-content>
+</ion-view>
